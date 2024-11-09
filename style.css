@@ -1,5 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
 * {
-	margin: 0;
-	padding: 0;
-	
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #24252A;
+    
+
+}
+body {
+
+    height: 100vh; /* Full viewport height */
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+li, a, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+
+.email {
+    color: grey;
+}
+.logo {
+    height: 60px;
+    width: 225px;
+    position: absolute;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(76, 175, 80);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    float: right; /* Aligns items horizontally from left to right */
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: rgb(129, 199, 132);
+}
+
+.top-links a {
+    color: red;
+    }
+    /* Add styles if necessary */
+
+
+.header-bar {
+    /* Add styles if necessary */
 }
